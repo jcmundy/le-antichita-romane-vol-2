@@ -1,0 +1,67 @@
+author:
+  email: null
+  name: An Author
+  twitter: null
+  url: null
+baseurl: /le-antichita-romane-vol-2
+collections:
+  annotations:
+    output: true
+    permalink: /annotations/:path/
+  volume_pages:
+    output: true
+    permalink: /pages/:path/
+defaults:
+- scope:
+    path: ''
+    type: volume_pages
+  values:
+    deep_zoom: true
+    extra_js:
+    - volume-page.js
+    - hammer.min.js
+    - deepzoom.js
+    - openseadragon.min.js
+    layout: volume_page
+    short_label: p.
+- scope:
+    path: ''
+    type: annotations
+  values:
+    layout: annotation
+description: An annotated digital edition created with <a href="http://readux.library.emory.edu/">Readux</a>
+gems:
+- jekyll-sitemap
+homepage_image: https://readux.ecds.emory.edu/books/readux:v5mxs/pages/readux:v6ms9/single-page/
+image_size:
+  page:
+    height: 1000
+    width: 820
+  small-thumbnail:
+    height: 100
+    width: 82
+  thumbnail:
+    height: 300
+    width: 246
+permalink: pretty
+publication_info:
+  author: Giovanni Battista Piranesi 1720-1778, author, illustrator.; Angelo Rotili
+    printer.
+  date: '2020'
+  editors:
+  - Joanna Mundy
+  tei_xml: tei.xml
+  title: Le antichita romane. Vol. 2, an annotated digital edition
+show_annotation_author: true
+source_info:
+  author: Giovanni Battista Piranesi 1720-1778, author, illustrator.; Angelo Rotili
+    printer.
+  date: '1756'
+  pdf_url: https://readux.ecds.emory.edu/books/readux:v5mxs/pdf/
+  title: Le antichita romane. Vol. 2
+  url: https://readux.ecds.emory.edu/books/readux:v5mxs/
+  via_readux: true
+tagline: ', an annotated digital edition'
+title: Le antichita romane. Vol. 2
+url: https://jcmundy.github.io
+version: 0.7
