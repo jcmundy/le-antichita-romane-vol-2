@@ -1,5 +1,6 @@
 # Digital Edition Jekyll Theme
 
+** no longer functional example from Readux Legacy
 
 digitaledition-jekylltheme is a [Jekyll](http://jekyllrb.com) theme
 based on [Lanyon](https://github.com/poole/lanyon).  It is intended to be used
